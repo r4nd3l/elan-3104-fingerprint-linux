@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="672" viewBox="0 0 1600 672">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b0f16"/>
+    <stop offset="1" stop-color="#0f1826"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#3fb950" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#56d364" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#7ee787" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#56d364" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="672" fill="url(#bg)"/>
+<circle cx="1235" cy="336" r="320" fill="url(#glow)"/>
+<g fill="none" stroke-linecap="round">
+<path d="M 1259.0 280.2 A 34.0 32.3 0 1 1 1246.1 272.5" stroke="#56d364" stroke-opacity="0.85" stroke-width="5.2"/>
+<path d="M 1273.2 270.3 A 53.0 50.3 0 1 1 1251.3 257.3" stroke="#56d364" stroke-opacity="0.82" stroke-width="5.1"/>
+<path d="M 1287.8 260.9 A 72.0 68.4 0 1 1 1255.8 241.9" stroke="#56d364" stroke-opacity="0.79" stroke-width="5.1"/>
+<path d="M 1302.9 252.1 A 91.0 86.5 0 1 1 1259.6 226.4" stroke="#56d364" stroke-opacity="0.76" stroke-width="5.0"/>
+<path d="M 1318.5 243.8 A 110.0 104.5 0 1 1 1262.7 210.7" stroke="#3fb950" stroke-opacity="0.73" stroke-width="5.0"/>
+<path d="M 1334.5 236.0 A 129.0 122.5 0 1 1 1265.1 194.8" stroke="#3fb950" stroke-opacity="0.70" stroke-width="4.9"/>
+<path d="M 1351.0 228.9 A 148.0 140.6 0 1 1 1266.8 178.9" stroke="#3fb950" stroke-opacity="0.67" stroke-width="4.8"/>
+<path d="M 1367.8 222.3 A 167.0 158.7 0 1 1 1267.7 162.8" stroke="#3fb950" stroke-opacity="0.64" stroke-width="4.8"/>
+<path d="M 1385.1 216.2 A 186.0 176.7 0 1 1 1267.9 146.7" stroke="#3fb950" stroke-opacity="0.61" stroke-width="4.7"/>
+<path d="M 1402.7 210.8 A 205.0 194.8 0 1 1 1267.4 130.5" stroke="#3fb950" stroke-opacity="0.58" stroke-width="4.7"/>
+<path d="M 1420.7 206.0 A 224.0 212.8 0 1 1 1266.2 114.3" stroke="#3fb950" stroke-opacity="0.55" stroke-width="4.6"/>
+<path d="M 1439.0 201.8 A 243.0 230.8 0 1 1 1264.2 98.0" stroke="#3fb950" stroke-opacity="0.52" stroke-width="4.5"/>
+<path d="M 1457.7 198.2 A 262.0 248.9 0 1 1 1261.5 81.8" stroke="#3fb950" stroke-opacity="0.49" stroke-width="4.5"/>
+<path d="M 1476.6 195.3 A 281.0 266.9 0 1 1 1258.0 65.5" stroke="#3fb950" stroke-opacity="0.46" stroke-width="4.4"/>
+<path d="M 1495.8 193.0 A 300.0 285.0 0 1 1 1253.8 49.4" stroke="#3fb950" stroke-opacity="0.43" stroke-width="4.4"/>
+<path d="M 1216.2 298.5 A 20.0 22.0 0 1 1 1250.3 320.1" stroke="#56d364" stroke-opacity="0.9" stroke-width="4.5"/>
+</g>
+<rect x="935" y="342" width="600" height="4" fill="url(#scan)"/>
+<rect x="935" y="328" width="600" height="30" fill="url(#scan)" opacity="0.15"/>
+<text x="96" y="150" font-family="DejaVu Sans Mono" font-size="27" letter-spacing="2" fill="#56d364">ELAN7001  ·  04f3:3104  ·  eFSA80SC</text>
+<text x="96" y="270" font-family="DejaVu Sans" font-weight="bold" font-size="82" fill="#e6edf3">A dead fingerprint</text>
+<text x="96" y="356" font-family="DejaVu Sans" font-weight="bold" font-size="82" fill="#e6edf3">reader on Linux</text>
+<text x="96" y="420" font-family="DejaVu Sans" font-size="38" fill="#8b949e">the fix wasn't where I looked</text>
+<rect x="96" y="476" width="880" height="118" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<circle cx="122" cy="502" r="6" fill="#ff5f56"/>
+<circle cx="144" cy="502" r="6" fill="#ffbd2e"/>
+<circle cx="166" cy="502" r="6" fill="#27c93f"/>
+<text x="122" y="546" font-family="DejaVu Sans Mono" font-size="25" fill="#8b949e">$ sudo echo <tspan fill="#e6edf3">it-works</tspan></text>
+<text x="122" y="578" font-family="DejaVu Sans Mono" font-size="25" fill="#56d364">✔ Swipe your right index finger…  it-works</text>
+</svg>
