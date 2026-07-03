@@ -1,0 +1,4 @@
+# Bind the ELAN7001 SPI fingerprint sensor to the generic spidev driver.
+# Needs kernel >= 4.20. Install to /etc/udev/rules.d/.
+ACTION=="add|change", SUBSYSTEM=="spi", ENV{MODALIAS}=="acpi:ELAN7001:", PROGRAM+="/bin/sh -c '/sbin/modprobe spidev && echo spidev > %S%p/driver_override && echo %k > %S%p/subsystem/drivers/spidev/bind'"
+ACTION=="add|change", SUBSYSTEM=="spi", ENV{MODALIAS}=="acpi:ELAN70A1:", PROGRAM+="/bin/sh -c '/sbin/modprobe spidev && echo spidev > %S%p/driver_override && echo %k > %S%p/subsystem/drivers/spidev/bind'"

@@ -1,0 +1,4 @@
+# never commit biometric captures
+*.pgm
+finger*.png
+*dump-*
