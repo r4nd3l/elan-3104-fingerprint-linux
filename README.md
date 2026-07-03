@@ -8,6 +8,9 @@ Out of the box this sensor does nothing on Linux. With the steps below you get
 `fprintd` enrollment **and reliable verification**, wired into login / sudo /
 lock-screen via PAM.
 
+📝 **The story behind this** (why the obvious conclusion was wrong):
+[dev.to writeup](https://dev.to/matemiller/working-fingerprint-reader-on-linux-42b3)
+
 > **Status on my hardware (ASUS VivoBook X513EAN):** enrollment clean,
 > **5/5 genuine verifies accepted, 0/3 impostor (wrong-finger) attempts
 > accepted**, running live for `sudo` and the GNOME lock screen with the
